@@ -3,7 +3,7 @@ import { calculator } from './../src/js/calculator'
 describe('calculator', () => {
 
   test('should iterate through an array and return a new array', () => {
-    expect(calculator()).toEqual([.24, .62, 1.88, 11.86]);
+    expect(calculator(1)).toEqual([4.17, 1.61, .53, .08]);
   });
   
   test('should divide the argument by each array element and return a new array with integers rounded to the second decimal point', () => {
