@@ -1,4 +1,4 @@
-import { calculator } from './../src/js/mars.js'
+import { calculator } from './../src/js/calculator'
 
 describe('calculator', () => {
 
