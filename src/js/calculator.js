@@ -3,7 +3,7 @@ export function calculator(age) {
   let ageArray =[]
 
   planetArray.forEach((nums) => {
-    ageArray.push((Math.round((nums)*100)/100));
+    ageArray.push((Math.round((age/nums)*100)/100));
 });
   return ageArray;
 }
