@@ -1,4 +1,4 @@
-
+import { venus } from './../src/js/venus.js'
 
 describe('venus', () => {
 
