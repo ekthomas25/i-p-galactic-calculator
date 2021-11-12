@@ -23,7 +23,8 @@ export class Calculator {
   }
 
   jupiter() {
-    
+    this.planetAge = Math.round((this.age/11.86)*100)/100;
+    this.planetExpect = Math.round((this.expectancy/11.86)*100)/100;
   }
 
   yearsRemain() {
