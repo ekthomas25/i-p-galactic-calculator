@@ -18,7 +18,8 @@ export class Calculator {
   }
 
   mars() {
-    
+    this.planetAge = Math.round((this.age/1.88)*100)/100;
+    this.planetExpect = Math.round((this.expectancy/1.88)*100)/100;
   }
 
   yearsRemain() {
