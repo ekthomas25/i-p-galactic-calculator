@@ -59,4 +59,14 @@ describe('calculator', () => {
     expect(newPlanet.yearsLeft).toEqual(15.96);
   });
 
+  test('should return an object with the values of age, expectancy, planetAge, planetExpect, and yearsLeft for the planet jupiter', () => {
+    newPlanet.jupiter();
+    newPlanet.yearsRemain();
+    expect(newPlanet.age).toEqual(20);
+    expect(newPlanet.expectancy).toEqual(50);
+    expect(newPlanet.planetAge).toEqual(1.69);
+    expect(newPlanet.planetExpect).toEqual(4.22);
+    expect(newPlanet.yearsLeft).toEqual(2.53);
+  });
+
 });
