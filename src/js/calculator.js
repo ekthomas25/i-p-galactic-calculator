@@ -28,6 +28,10 @@ export class Calculator {
   }
 
   yearsRemain() {
-    this.yearsLeft = Math.round((this.planetExpect - this.planetAge)*100)/100
+    this.yearsLeft = Math.round((this.planetExpect - this.planetAge)*100)/100;
+  }
+
+  pastExpected() {
+  
   }
 }
