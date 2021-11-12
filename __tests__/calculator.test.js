@@ -70,8 +70,12 @@ describe('calculator', () => {
   });
 
   test('should return the positive number of years that the user has lived past life expectancy with the string "Youve lived _ years past life expectancy!" ', () => {
-    let oldPlanet = new Calculator(55, 50, 4.64, 4.22, -0.42)
-    expect(oldPlanet.pastExpected()).toEqual("You've lived 0.42 years past your life expectancy!")
+    let oldPlanet = new Calculator(55, 50, 4.64, 4.22, -0.42);
+    expect(oldPlanet.pastExpected()).toEqual("You've lived 0.42 years past your life expectancy!");
   });
 
+  test('should be falsy if user has not yet lived past life expectancy', () => {
+    let oldPlanet = new Calculator(35, 50, 2.95, 4.22, 1.27);
+    expect(oldPlanet.pastExpected()).toBeFalsy();
+  });
 });
