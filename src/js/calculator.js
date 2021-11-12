@@ -34,6 +34,6 @@ export class Calculator {
   pastExpected() {
     if (this.yearsLeft < 0) {
       return "You've lived " + (this.yearsLeft * -1) + " years past your life expectancy!";
-    }
-  }
+    } return 100;
+  } 
 }
