@@ -31,4 +31,11 @@ describe('calculator', () => {
     expect(newPlanet.yearsLeft).toEqual(125);
   });
   
+  test('should return an object with the values of age, expectancy, planetAge, and planetExpect for the planet venus', () => {
+    newPlanet.venus();
+    expect(newPlanet.age).toEqual(20);
+    expect(newPlanet.expectancy).toEqual(50);
+    expect(newPlanet.planetAge).toEqual(32.26);
+    expect(newPlanet.planetExpect).toEqual(80.65);
+  });
 });
