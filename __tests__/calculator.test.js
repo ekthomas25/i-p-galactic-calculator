@@ -48,4 +48,15 @@ describe('calculator', () => {
     expect(newPlanet.planetExpect).toEqual(80.65);
     expect(newPlanet.yearsLeft).toEqual(48.39);
   });
+
+  test('should return an object with the values of age, expectancy, planetAge, planetExpect, and yearsLeft for the planet mars', () => {
+    newPlanet.mars();
+    newPlanet.yearsRemain();
+    expect(newPlanet.age).toEqual(20);
+    expect(newPlanet.expectancy).toEqual(50);
+    expect(newPlanet.planetAge).toEqual(10.54);
+    expect(newPlanet.planetExpect).toEqual(26.6);
+    expect(newPlanet.yearsLeft).toEqual(15.96);
+  });
+
 });
