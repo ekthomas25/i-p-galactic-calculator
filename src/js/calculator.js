@@ -17,6 +17,10 @@ export class Calculator {
     this.planetExpect = Math.round((this.expectancy/.62)*100)/100;
   }
 
+  mars() {
+    
+  }
+
   yearsRemain() {
     this.yearsLeft = Math.round((this.planetExpect - this.planetAge)*100)/100
   }
