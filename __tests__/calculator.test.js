@@ -21,7 +21,7 @@ describe('calculator', () => {
     expect(newPlanet.planetExpect).toEqual(208.33);
   });
   
-  test('should return an object with the values of age, expectancy, planetAge, and planetExpect for the planet mercury', () => {
+  test('should return an object with the values of age, expectancy, planetAge, planetExpect, and years left for the planet mercury', () => {
     newPlanet.mercury();
     newPlanet.yearsRemain();
     expect(newPlanet.age).toEqual(20);
@@ -37,5 +37,15 @@ describe('calculator', () => {
     expect(newPlanet.expectancy).toEqual(50);
     expect(newPlanet.planetAge).toEqual(32.26);
     expect(newPlanet.planetExpect).toEqual(80.65);
+  });
+
+  test('should return an object with the values of age, expectancy, planetAge, planetExpect, and yearsLeft for the planet venus', () => {
+    newPlanet.venus();
+    newPlanet.yearsRemain();
+    expect(newPlanet.age).toEqual(20);
+    expect(newPlanet.expectancy).toEqual(50);
+    expect(newPlanet.planetAge).toEqual(32.26);
+    expect(newPlanet.planetExpect).toEqual(80.65);
+    expect(newPlanet.yearsLeft).toEqual(48.39);
   });
 });
