@@ -13,7 +13,8 @@ export class Calculator {
   }
 
   venus() {
-    
+    this.planetAge = Math.round((this.age/.62)*100)/100;
+    this.planetExpect = Math.round((this.expectancy/.62)*100)/100;
   }
 
   yearsRemain() {
