@@ -54,7 +54,7 @@ describe('calculator', () => {
     newPlanet.yearsRemain();
     expect(newPlanet.age).toEqual(20);
     expect(newPlanet.expectancy).toEqual(50);
-    expect(newPlanet.planetAge).toEqual(10.54);
+    expect(newPlanet.planetAge).toEqual(10.64);
     expect(newPlanet.planetExpect).toEqual(26.6);
     expect(newPlanet.yearsLeft).toEqual(15.96);
   });
