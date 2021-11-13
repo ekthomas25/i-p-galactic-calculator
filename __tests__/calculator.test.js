@@ -1,4 +1,4 @@
-import { Calculator, calculator } from './../src/js/calculator'
+import { Calculator } from './../src/js/calculator'
 
 describe('calculator', () => {
   
