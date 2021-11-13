@@ -9,7 +9,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist')
   },
   devtool: 'eval-source-map',
-  devServer: {  
+  devServer: {
     contentBase: './dist'
   },
   plugins: [
@@ -25,7 +25,7 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-          'style-loader',
+          'style-loader', 
           'css-loader'
         ]
       },
