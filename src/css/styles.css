@@ -1,0 +1,28 @@
+body  {
+  background-color: rgb(0, 0, 0);
+}
+
+h1  {
+  margin: 5%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: yellow;
+}
+
+h2  {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  font-weight: 100;
+  color: rgb(255, 153, 0);
+}
+
+.container  {
+  padding: 5%;
+  border-radius: 25px;
+  border-top: 20px solid darkviolet;
+  border-left: 35px solid darkviolet;
+  background-color: rgb(46, 46, 46);
+}
+
+.btn  {
+  background-color: rgb(217, 109, 231);
+}
